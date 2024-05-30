@@ -3,10 +3,10 @@ pipeline{
     stages{
         stage('checkout code'){
             steps{
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/mirza57865/Node_js_Project']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/GRR1317/Node_js_Project-1.git']])
             }
         }
-        stage('Build docker image'){
+/*        stage('Build docker image'){
             steps{
              script{
                  sh 'docker build -t images:2.1 .'
@@ -25,5 +25,5 @@ pipeline{
                 }
             }
         }
-    }
+    }  */
 }
