@@ -1,3 +1,4 @@
+/* This is the jenkins pipeline */
 pipeline{
     agent any
     stages{
