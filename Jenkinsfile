@@ -1,4 +1,4 @@
-/* This is the jenkins pipeline */
+/* This is the declerative jenkins pipeline */
 pipeline{
     agent any
     stages{
